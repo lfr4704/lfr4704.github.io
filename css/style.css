@@ -1,0 +1,366 @@
+
+ .imageStyle {
+    margin-bottom: 0px;
+    display: inline-block;
+    position: absolute;
+
+    /*background-image: url("../img/logo3.png");*/
+    /*Create the parallax scrolling effect*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} 
+
+
+.intro {
+    font-family: sans-serif;
+    background-color: #98bf21;
+    height:50px;
+    width:325px;
+    text-align: left;
+}
+
+ .wpImage{
+  text-align: center;
+}
+
+ .circle{
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background: #98bf21;
+ }
+ 
+ .circle:hover {
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background: #333;
+ }
+
+
+.my-navbar-item:active{
+    color: #ffffff;
+    text-decoration: none;
+    padding:2px 3px 2px 5px;
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+ .my-navbar-item{
+    -webkit-transition: .5s all ease-out;
+    -moz-transition: .5s all ease-out;
+    transition: .5s all ease-out;
+    color: #ffffff;
+    text-decoration: none;
+    padding:2px 3px 2px 5px;
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.socialMedia{
+  -webkit-transition: .5s all ease-out;
+  -moz-transition: .5s all ease-out;
+  transition: .5s all ease-out;
+  padding: 13px 15px;
+  -moz-border-radius: 3px; 
+  border-radius: 3px;
+  display: inline;
+}
+
+.my-navbar-item:hover {
+  /*background-color: #D3D3D3;
+  border-radius: 8px;
+  border: 1px solid #FFFFFF;
+  font-size: 12px;
+  padding: 0px;*/
+  color: #ACBCAF; 
+  text-decoration:none; 
+  font-weight:500; 
+  background-color:#D3D3D3; 
+  padding:2px 3px 2px 5px; 
+  -moz-border-radius: 3px; 
+  border-radius: 3px;
+  font-family: sans-serif;
+}
+
+.socialMedia:hover{
+  padding: 13px 15px;
+ background-color:#D3D3D3; 
+  -moz-border-radius: 3px; 
+  border-radius: 3px;
+}
+
+.imageEditor {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: auto;                                                      
+}
+
+.button {
+  display: inline-block;
+  border-radius: 16px;
+  border: 2px solid #FFFFFF;
+  text-align: center;
+  font-size: 2em;
+  font-family: sans-serif;
+  padding: 20px;
+  width: 225px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+  background-color: Transparent;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.backgroundImage{
+    background-image: url("../img/contactme2.jpg");
+    background-size: cover;
+    height: 350px;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+.navbar1:hover {
+    background-color:green; 
+    text-decoration:underline; 
+    font-weight:500; 
+    background-color:#ffffff; 
+    padding:2px 3px 2px 5px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+}
+
+.navbar2:hover{color: #ACBCAF; 
+    text-decoration:underline; 
+    font-weight:500; 
+    background-color:#ffffff; 
+    padding:2px 3px 2px 5px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px;
+}
+
+.emailIcon {
+    width:6%;
+    max-width:40px;
+    background-image:url(../images/googleplus.png);
+    height:19px;
+    float:right;
+    margin:25px 0px 0px 0px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:21px 19px;
+}
+.emailIcon:hover {
+    background-image:url(../images/googleplus_rollover.png);
+    cursor:pointer;
+}
+.instagramIcon {
+    width:6%;
+    max-width:40px;
+    height:20px;
+    float:right;
+    margin:25px 0px 0px 0px;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-size:20px 20px;
+}
+.instagram:hover {
+    cursor:pointer;
+}
+
+/*
+.opening {
+    font-family: sans-serif;
+    background:#98bf21;
+    height:150px;
+    width:325px;
+    position: relative;
+    display: inline;
+}
+*/
+
+
+.closing {
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+  
+}
+
+#wrapper {
+  display: block;
+  text-align: center;
+}
+
+
+h1 {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.cardText {
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.yellow{
+    font-family: sans-serif;
+    color: #F5C453;
+}
+
+
+.yellow:hover{
+    font-family: sans-serif;
+    color: #F5C453;
+    border-bottom: 1px solid; /* <- here */
+    transition: border-bottom 1s;
+    text-decoration: underline;
+}
+
+/* Conatct start */
+
+        .header-title
+        {
+          text-align: center;
+          font-family: sans-serif;
+        
+        }
+ .title
+        {
+          text-align: center;
+          font-family: sans-serif;
+        
+        }
+
+        #tip 
+        {
+            display:none;  
+        }
+
+        .fadeIn
+        {
+          animation-duration: 3s;
+        }
+
+        .form-control
+        {
+            border-radius:0px;
+            border:1px solid #EDEDED;
+        }
+
+        .form-control:focus
+        {
+            border:1px solid #00bfff;
+        }
+
+        .textarea-contact
+        {
+            resize:none; 
+        }
+
+        .btn-send
+        {
+            border-radius: 0px;
+            border:1px solid #00bfff;
+            background:#00bfff;
+            color:#fff; 
+        }
+
+        .btn-send:hover
+        {
+            border:1px solid #00bfff;
+            background:#fff;
+            color:#00bfff;
+            transition:background 0.5s;   
+        }
+
+        .second-portion
+        {
+            margin-top:50px; 
+        }
+
+                @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+        @import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+        .box > .icon { text-align: center; position: relative; }
+        .box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #98bf21; vertical-align: middle; }
+        .box > .icon:hover > .image { background: #333; }
+        .box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+        .box > .icon:hover > .image > i { color: white !important; }
+        .box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+        .box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+        .box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+        .box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+        .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+        .box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+        .box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+        .box .space { height: 30px; }
+
+        @media only screen and (max-width: 768px)
+        {
+            .contact-form
+            {
+                margin-top:25px; 
+            }
+
+            .btn-send
+            {
+                width: 100%;
+                padding:10px; 
+            }
+
+            .second-portion
+            {
+                margin-top:25px; 
+            }
+        }
+    /* Conatct end */

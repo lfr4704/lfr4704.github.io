@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+       #map {
+        height: 315px;
+        width: 100%;
+       }
+    </style>
+
+<!-- contact us form -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- bootstrap icons -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- google icons -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!-- My personal CSS index link -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!--icons bootstrap-->
+<link href="css/open-iconic-bootstrap.css" rel="stylesheet">
+  
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>   
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Luis Robles</title>
+</head>
+<body>
+  
+  <!--Navigation bar code starts here-->
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">LR Design</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="my-navbar-item active"><a href="#1a" data-toggle="tab">HOME <span class="sr-only">(current)</span></a></li>
+        <li class="my-navbar-item"><a href="#2a" data-toggle="tab">ABOUT</a></li>
+        <li class="my-navbar-item"><a href="#3a" data-toggle="tab">CONTACT</a></li>
+      </ul>
+  <!-- navigation icons on right side start here-->
+      <ul class="nav navbar-nav navbar-right">
+          <li class="fa material-icons socialMedia" style="font-size:24px" onclick="location.href='mailto:lfr4704@gmail.com';">email</li>
+        <!--
+        <i class="fa fa-instagram" style="font-size:24px" instagram onclick="location.href = 'https://www.instagram.com/sfadventuress/';"></i>
+        -->
+          <li class="fa fa-github socialMedia" style="font-size:24px" onclick="location.href='https://github.com/lfr4704/LR-Travel';"></li>
+        <!--
+        <i class="fa fa-facebook-official" style="font-size:24px"></i>
+        -->
+          <li class="fa fa-linkedin-square socialMedia" style="font-size:24px" onclick="location.href='https://www.linkedin.com/in/luis-robles-p-e-666a92a5/';"></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- bootstrap tab code for reference only-->
+<!-- <div class="container"><h1>Bootstrap  tab panel example (using nav-pills)  </h1></div>
+<div id="exTab1" class="container"> 
+
+
+      <div class="tab-content clearfix">
+        <div class="tab-pane active" id="1a">
+          <h3>Content's background color is the same for the tab</h3>
+        </div>
+        <div class="tab-pane" id="2a">
+          <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+        </div>
+        <div class="tab-pane" id="3a">
+          <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+        </div>
+          <div class="tab-pane" id="4a">
+          <h3>We use css to change the background color of the content to be equal to the tab</h3>
+        </div>
+      </div>
+  </div> -->
+
+<div class="tab-content clearfix">
+      <div class="tab-pane active" id="1a">
+        
+          <div class="container">
+
+          	<div class="row">
+              <div class="col-lg-6">
+                <h1 class="intro">Hello,I'm Luis Robles, a web developer. Let's work together!</h1>
+              </div>
+              <div class="col-lg-6 imageStyle" align="center" id="wrapper">
+              	<img src="./img/logo3.png">
+              </div>
+            </div>
+       		
+          </div>
+        
+
+        <!-- cards code starts here-->
+        <div class="container">
+        	<h1 style="text-align: center;">My Services:</h1>
+        	<br>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 wpImage">
+              <div class="card">
+                <i class="material-icons circle" style="font-size:72px">computer</i>
+                <div class="card-block">
+                  <h1 class="card-title" style="text-align: center;">Web Design</h1>
+                  <h4 class="cardText">Browsers are design with HTML, CSS and a touch of JavaScript or Ruby. I can work with coding from scratch, but I can also work with front-end frameworks like Bootstrap and JQuery.</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 wpImage">
+              <div class="card">
+              <i class="fa fa-cloud-download circle" style="font-size:72px"></i>
+                <div class="card-block">
+                  <h1 class="card-title" style="text-align: center;">Maintenance</h1>
+                  <h4 class="cardText">Let us provide website updates to meet your site content needs, including (but certainly not limited to) overall site improvements, product/service updates, creating engaging adds, and interactivity maintenance.</h4>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-12 wpImage">
+              <div class="card">
+                <i class="fa fa-edit circle" style="font-size:72px"></i>
+                <div class="card-block">
+                  <h1 class="card-title" style="text-align: center;">Optimization</h1>
+                  <h4 class="cardText">Our team will create your website(s) to be attractive, engaging and optimized for search engines. Let us help you with optimizing your website to the lattest trends!<h4>
+                </div>
+              </div>
+            </div>
+
+          </div> <!-- row -->
+        </div> <!-- container-->
+
+       
+        <div class="backgroundImage row">
+          <div id="wrapper">
+          	<div>
+              <p class="closing">Achieving the best results comes with a detail-oriented process. I enjoy the proccess of developing websites.</p>
+                <button class="button" href="#3a" data-toggle="tab" role="button" style="vertical-align:middle"><span>Contact me </span></button>
+                <!--<a class="button" href="#3a" data-toggle="tab" role="button" style="vertical-align:middle"><span>Contact me </span></a>-->
+            </div>
+          </div>
+        </div>
+ <!--    
+<div id="map"></div>
+    <script>
+      function initMap() {
+var uluru = {lat: 37.799485, lng: -122.425320};
+        // Create a new StyledMapType object, passing it an array of styles,
+        // and the name to be displayed on the map type control.
+        var styledMapType = new google.maps.StyledMapType(
+            [
+              {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
+              {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
+              {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
+              {
+                featureType: 'administrative',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#c9b2a6'}]
+              },
+              {
+                featureType: 'administrative.land_parcel',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#dcd2be'}]
+              },
+              {
+                featureType: 'administrative.land_parcel',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#ae9e90'}]
+              },
+              {
+                featureType: 'landscape.natural',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#93817c'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'geometry.fill',
+                stylers: [{color: '#a5b076'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#447530'}]
+              },
+              {
+                featureType: 'road',
+                elementType: 'geometry',
+                stylers: [{color: '#f5f1e6'}]
+              },
+              {
+                featureType: 'road.arterial',
+                elementType: 'geometry',
+                stylers: [{color: '#fdfcf8'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry',
+                stylers: [{color: '#f8c967'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#e9bc62'}]
+              },
+              {
+                featureType: 'road.highway.controlled_access',
+                elementType: 'geometry',
+                stylers: [{color: '#e98d58'}]
+              },
+              {
+                featureType: 'road.highway.controlled_access',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#db8555'}]
+              },
+              {
+                featureType: 'road.local',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#806b63'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#8f7d77'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'labels.text.stroke',
+                stylers: [{color: '#ebe3cd'}]
+              },
+              {
+                featureType: 'transit.station',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'geometry.fill',
+                stylers: [{color: '#b9d3c2'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#92998d'}]
+              }
+            ],
+            {name: 'Styled Map'});
+
+        // Create a map object, and include the MapTypeId to add
+        // to the map type control.
+        
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: uluru,
+          zoom: 11,
+          mapTypeControlOptions: {
+            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+                    'styled_map']
+          }
+        });
+
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('styled_map', styledMapType);
+        map.setMapTypeId('styled_map');
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    title: 'Find me here!'
+  });
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCR-dKqpdB-2LTtiIWD3AR4maFVwVmPns4&callback=initMap"></script> -->
+
+      </div> <!--end of tab 1a-->
+
+
+        <div class="tab-pane" id="2a">
+          <div class="col-lg-6">
+
+             <img src="./img/mypicture.jpg">
+           
+          </div>
+
+            <div class="col-lg-6">
+              <div class=>
+                <div class="card-block">
+                  <h1 class="card-title">Luis Robles is a design-oriented front-end web developer. He strives to build user-friendly web applications by utilizing the trending and core principles of <a href="https://www.webdesignerdepot.com/" target="_blank" class="yellow"> web design.</a></h1>
+                  <h3 class="card-text">Since graduating with a B.A. in Mechanical Engineering from The University of Texas at Arlington in 2008, Luis has redirected his professional career almost exclusively to web development and other entrepreneurial ventures.<br>
+                  <br>He is currently taking on freelance work and teaming up with other individuals to work on projects that will make this world a better place. Luis is especially interested in entrepreneurial ventures in the travel industry, cryptocurrency, and photography.<br>
+                  <br>In addition to her development work, Luis is lead activist on energy conservation in his community. His mission is to bring awareness of energy and water conservation measures in his community and aroudn the world.<br>
+                  <br>In his free time Luis enjoys hiking or running in San Francico, California with his two dogs, exploring new cities or countries around the world.  <h3>
+                </div>
+              </div>
+            </div>
+
+        </div>
+ 
+ <div class="tab-pane" id="3a">
+  <div class="container animated fadeIn">
+
+        <div class="row">
+          <h1 class="header-title"> Contact </h1>
+          <hr>
+          <div class="col-sm-12" id="parent">
+            
+            <div class="col-sm-6">
+              <div id="map"></div>
+    <script>
+      function initMap() {
+
+var uluru = new google.maps.LatLng(37.799485, -122.425320); 
+
+        // Create a new StyledMapType object, passing it an array of styles,
+        // and the name to be displayed on the map type control.
+        var styledMapType = new google.maps.StyledMapType(
+            [
+              {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
+              {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
+              {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
+              {
+                featureType: 'administrative',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#c9b2a6'}]
+              },
+              {
+                featureType: 'administrative.land_parcel',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#dcd2be'}]
+              },
+              {
+                featureType: 'administrative.land_parcel',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#ae9e90'}]
+              },
+              {
+                featureType: 'landscape.natural',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'poi',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#93817c'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'geometry.fill',
+                stylers: [{color: '#a5b076'}]
+              },
+              {
+                featureType: 'poi.park',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#447530'}]
+              },
+              {
+                featureType: 'road',
+                elementType: 'geometry',
+                stylers: [{color: '#f5f1e6'}]
+              },
+              {
+                featureType: 'road.arterial',
+                elementType: 'geometry',
+                stylers: [{color: '#fdfcf8'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry',
+                stylers: [{color: '#f8c967'}]
+              },
+              {
+                featureType: 'road.highway',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#e9bc62'}]
+              },
+              {
+                featureType: 'road.highway.controlled_access',
+                elementType: 'geometry',
+                stylers: [{color: '#e98d58'}]
+              },
+              {
+                featureType: 'road.highway.controlled_access',
+                elementType: 'geometry.stroke',
+                stylers: [{color: '#db8555'}]
+              },
+              {
+                featureType: 'road.local',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#806b63'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#8f7d77'}]
+              },
+              {
+                featureType: 'transit.line',
+                elementType: 'labels.text.stroke',
+                stylers: [{color: '#ebe3cd'}]
+              },
+              {
+                featureType: 'transit.station',
+                elementType: 'geometry',
+                stylers: [{color: '#dfd2ae'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'geometry.fill',
+                stylers: [{color: '#b9d3c2'}]
+              },
+              {
+                featureType: 'water',
+                elementType: 'labels.text.fill',
+                stylers: [{color: '#92998d'}]
+              }
+            ],
+            {name: 'Styled Map'});
+
+        // Create a map object, and include the MapTypeId to add
+        // to the map type control.
+        
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: new google.maps.LatLng(37.9, -122.55),
+          zoom: 11,
+          mapTypeControlOptions: {
+            mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
+                    'styled_map']
+          }
+        });
+
+        //Associate the styled map with the MapTypeId and set it to display.
+        map.mapTypes.set('styled_map', styledMapType);
+        map.setMapTypeId('styled_map');
+
+  
+
+  var marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+    title: 'Find me here!'
+  });
+
+
+
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCR-dKqpdB-2LTtiIWD3AR4maFVwVmPns4&callback=initMap"></script> 
+<!--
+                  <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 37.799485, lng: -122.425320};
+        var map = new google.maps.Map(document.getElementById('map'), 
+        {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+        debugger
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCR-dKqpdB-2LTtiIWD3AR4maFVwVmPns4&callback=initMap"></script>
+-->
+            </div>
+
+            <div class="col-sm-6"> <!--start of form-->
+              <form action="http://formspree.io/lfr4704@gmail.com" class="contact-form" method="post">
+  
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
+            </div>
+        
+        
+            <div class="form-group form_left">
+              <input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
+            </div>
+        
+          <div class="form-group">
+               <input type="text" class="form-control" id="phone" name="email" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Mobile No." required="">
+          </div>
+          <div class="form-group">
+          <textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Type Your Message/Feedback here..." required=""></textarea>
+          <br>
+            <button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send </button>
+          </div>
+        </form>
+            </div> <!--end of form-->
+          </div> <!--end of id = parent-->
+        </div> <!--end of row-->
+
+        <div class="container second-portion">
+        <div class="row">
+              <!-- Boxes de Acoes -->
+            <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">             
+              <div class="icon">
+                <div class="image"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                <div class="info">
+                  <h3 class="title">MAIL</h3>
+                  <p>
+                    <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp lfr4704@gmail.com
+                    <br>
+                  </p>
+                
+                </div>
+              </div>
+              <div class="space"></div>
+            </div> 
+          </div>
+            
+              <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">             
+              <div class="icon">
+                <div class="image"><i class="fa fa-mobile" aria-hidden="true"></i></div>
+                <div class="info">
+                  <h3 class="title">CONTACT</h3>
+                    <p>
+                    <i class="fa fa-mobile" aria-hidden="true"></i> &nbsp (+1) 415-635-8565
+                    <br>
+                  </p>
+                </div>
+              </div>
+              <div class="space"></div>
+            </div> 
+          </div>
+            
+          <div class="col-xs-12 col-sm-6 col-lg-4">
+            <div class="box">             
+              <div class="icon">
+                <div class="image"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                <div class="info">
+                  <h3 class="title">ADDRESS</h3>
+                    <p>
+                     <i class="fa fa-map-marker" aria-hidden="true"></i> &nbsp 1575 Filbert Street, San Francisco, California,94123.
+                  </p>
+                </div>
+              </div>
+              <div class="space"></div>
+            </div> 
+          </div>        
+          <!-- /Boxes de Acoes -->
+            
+        </div>
+      </div>
+
+   </div> <!--container end-->
+   <!-- My personal js script copied here to solve visibility problem wiht google maps in tab 3a-->
+<script src='script.js'></script>
+  </div> <!--tab 3a end-->
+
+</div> <!--end of clear fix-->
+
+
+<!-- jquery code starts here-->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous">
+</script>
+<!-- My personal js script -->
+<script src='script.js'></script>
+</body>
+</html>
