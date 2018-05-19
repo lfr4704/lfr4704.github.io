@@ -1,5 +1,6 @@
 
  .imageStyle {
+
     margin-bottom: 0px;
     display: inline-block;
     position: absolute;
@@ -125,6 +126,7 @@
   align-items: center;
   justify-content: center;
   background-color: Transparent;
+  margin: 50px;
 }
 
 .button span {
@@ -132,6 +134,8 @@
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  color:white;
+
 }
 
 .button span:after {
@@ -152,19 +156,13 @@
   right: 0;
 }
 
-
-.backgroundImage{
-    background-image: url("../img/contactme2.jpg");
-    background-size: cover;
-    height: 100%;
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    
+.background-style{
+  background-color: #333;
 }
 
-
+.footer{
+  height: 200px;
+}
 .navbar1:hover {
     background-color:green; 
     text-decoration:underline; 
@@ -223,15 +221,6 @@
     display: inline;
 }
 */
-
-
-.closing {
-    font-size: 2em;
-    text-align: center;
-    font-family: sans-serif;
-    padding: 15px;
-  
-}
 
 #wrapper {
   display: block;
@@ -370,6 +359,62 @@ h3 {
     /* Conatct end */
  
 
+  /* projects */
+  /* this is the grid to put photos galleries in div*/
+.photos {
+  margin: 10px 0px 10px 0px;
+  display: grid;
   
-  
+  grid-template-rows: 300px;
+  grid-gap: 40px;
+  background-color: #808080;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+span > a {
+  text-decoration: none;
+  color: white;
+}
+
+span > a:hover {
+  text-decoration: none;
+  color: #98bf21;
+}
+
+/* this is to style project section divs */
+.image-style{
+  position: relative; /* this positions the text in span over the current element*/
+}
+
+span.text-content { /*this styles the text in the outer span to give it a background color and transition effects*/
+  background: rgba(0,0,0,0.8);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;/* this makes the text transparent*/
+  -webkit-transition: opacity 500ms; /* -webkit, -moz, -o are browser prefixes*/
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+div.image-style:hover span.text-content {
+  opacity: 1 /*this makes text visible(opaque) on hover*/
+}
+
+span.text-content span { /* this is for the inner span*/
+  display: table-cell;/* table-cell. That lets me use the vertical-align attribute to place my text right in the middle of the image*/
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+
+/*projects ends */  
   
