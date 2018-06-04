@@ -452,7 +452,7 @@ span.text-content span { /* this is for the inner span*/
 
 .about { 
   width: 100%;
-  height: 500px;
+  height: auto;
   padding: 10px;
   background-color: rgba(180,180,180,0.9);
   margin:10px auto;
