@@ -443,7 +443,6 @@ span.text-content span { /* this is for the inner span*/
   border-radius: 25px;
   font-style: italic;
   display: block;
-  margin-top: -1000px;
   text-align: center;
   opacity: .9;
  }
@@ -453,15 +452,15 @@ span.text-content span { /* this is for the inner span*/
 
 .about { 
   width: 100%;
-  height: 600px;
+  height: 500px;
   padding: 10px;
   background-color: rgba(180,180,180,0.9);
   margin:10px auto;
   font-size: 2em;
   border-radius: 25px;
   font-style: italic;
-  display: block;
-  margin-top: -600px;
+  display: inline-block;
+  position: relative;
   text-align: center;
  }
 }
