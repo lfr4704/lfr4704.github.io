@@ -23,29 +23,29 @@ anime.timeline({loop: true})
 
   // Wrap every letter in a span for about me page
 
-  $("a[href='#2a']").on('shown.bs.tab', function(){
-    console.log("lets make the text move");
-    $('#recommendations').each(function(){
-    $(this).html($(this).text().replace(/./g, "<span class='letter'>$&</span>"));
-    });
+//   $("a[href='#2a']").on('shown.bs.tab', function(){
+//     console.log("lets make the text move");
+//     $('#recommendations').each(function(){
+//     $(this).html($(this).text().replace(/./g, "<span class='letter'>$&</span>"));
+//     });
 
-    anime.timeline({loop: true})
-      .add({
-        targets: '#recommendations .letter',
-        opacity: [0,1],
-        easing: "easeInOutQuad",
-        duration: 2250,
-        delay: function(el, i) {
-          return 150 * (i+1)
-        }
-      }).add({
-        targets: '#recommendations',
-        opacity: 0,
-        duration: 1000,
-        easing: "easeOutExpo",
-        delay: 1000
-      });
-});
+//     anime.timeline({loop: true})
+//       .add({
+//         targets: '#recommendations .letter',
+//         opacity: [0,1],
+//         easing: "easeInOutQuad",
+//         duration: 2250,
+//         delay: function(el, i) {
+//           return 150 * (i+1)
+//         }
+//       }).add({
+//         targets: '#recommendations',
+//         opacity: 0,
+//         duration: 1000,
+//         easing: "easeOutExpo",
+//         delay: 1000
+//       });
+// });
 
 // this jquery function is to animate the text "intro"
 //$(document).ready(function(){
@@ -94,5 +94,11 @@ $(function() {
   });
 
 });
+
+/* random quote generator starts here */
+var quotes = [
+'\"We all know a fellow hard worker. Not afraid to work and learn.\" - Lisbeth McNabb, CFO COO, The Linux Foundation.',
+
+]
 
  
