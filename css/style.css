@@ -9,7 +9,7 @@
     /*Create the parallax scrolling effect*/
     background-attachment: fixed;
     background-repeat: no-repeat;
-} 
+}
 .ml3 {
   font-weight: 900;
   font-size: 3.5em;
@@ -38,7 +38,7 @@
     text-align:center;
     background: #98bf21;
  }
- 
+
  .circle:hover {
     width:100px;
     height:100px;
@@ -55,7 +55,7 @@
     color: #ffffff;
     text-decoration: none;
     padding:2px 3px 2px 5px;
-    -moz-border-radius: 3px; 
+    -moz-border-radius: 3px;
     border-radius: 3px;
     font-family: sans-serif;
 }
@@ -66,7 +66,7 @@
     color: #ffffff;
     text-decoration: none;
     padding:2px 3px 2px 5px;
-    -moz-border-radius: 3px; 
+    -moz-border-radius: 3px;
     border-radius: 3px;
     font-family: sans-serif;
 }
@@ -76,7 +76,7 @@
   -moz-transition: .5s all ease-out;
   transition: .5s all ease-out;
   padding: 13px 15px;
-  -moz-border-radius: 3px; 
+  -moz-border-radius: 3px;
   border-radius: 3px;
   display: inline;
 }
@@ -87,20 +87,20 @@
   border: 1px solid #FFFFFF;
   font-size: 12px;
   padding: 0px;*/
-  color: #ACBCAF; 
-  text-decoration:none; 
-  font-weight:500; 
-  background-color:#D3D3D3; 
-  padding:2px 3px 2px 5px; 
-  -moz-border-radius: 3px; 
+  color: #ACBCAF;
+  text-decoration:none;
+  font-weight:500;
+  background-color:#D3D3D3;
+  padding:2px 3px 2px 5px;
+  -moz-border-radius: 3px;
   border-radius: 3px;
   font-family: sans-serif;
 }
 
 .socialMedia:hover{
   padding: 13px 15px;
- background-color:#D3D3D3; 
-  -moz-border-radius: 3px; 
+ background-color:#D3D3D3;
+  -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -108,7 +108,7 @@
     display: inline-block;
     width: 300px;
     height: 300px;
-    margin: auto;                                                      
+    margin: auto;
 }
 
 .button {
@@ -164,21 +164,21 @@
   height: 200px;
 }
 .navbar1:hover {
-    background-color:green; 
-    text-decoration:underline; 
-    font-weight:500; 
-    background-color:#ffffff; 
-    padding:2px 3px 2px 5px; 
-    -moz-border-radius: 3px; 
+    background-color:green;
+    text-decoration:underline;
+    font-weight:500;
+    background-color:#ffffff;
+    padding:2px 3px 2px 5px;
+    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
-.navbar2:hover{color: #ACBCAF; 
-    text-decoration:underline; 
-    font-weight:500; 
-    background-color:#ffffff; 
-    padding:2px 3px 2px 5px; 
-    -moz-border-radius: 3px; 
+.navbar2:hover{color: #ACBCAF;
+    text-decoration:underline;
+    font-weight:500;
+    background-color:#ffffff;
+    padding:2px 3px 2px 5px;
+    -moz-border-radius: 3px;
     border-radius: 3px;
 }
 
@@ -265,18 +265,18 @@ h3 {
         {
           text-align: center;
           font-family: sans-serif;
-        
+
         }
  .title
         {
           text-align: center;
           font-family: sans-serif;
-        
+
         }
 
-        #tip 
+        #tip
         {
-            display:none;  
+            display:none;
         }
 
         .fadeIn
@@ -297,7 +297,7 @@ h3 {
 
         .textarea-contact
         {
-            resize:none; 
+            resize:none;
         }
 
         .btn-send
@@ -305,7 +305,7 @@ h3 {
             border-radius: 0px;
             border:1px solid #00bfff;
             background:#00bfff;
-            color:#fff; 
+            color:#fff;
         }
 
         .btn-send:hover
@@ -313,12 +313,12 @@ h3 {
             border:1px solid #00bfff;
             background:#fff;
             color:#00bfff;
-            transition:background 0.5s;   
+            transition:background 0.5s;
         }
 
         .second-portion
         {
-            margin-top:50px; 
+            margin-top:50px;
         }
 
                 @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
@@ -342,32 +342,38 @@ h3 {
         {
             .contact-form
             {
-                margin-top:25px; 
+                margin-top:25px;
             }
 
             .btn-send
             {
                 width: 100%;
-                padding:10px; 
+                padding:10px;
             }
 
             .second-portion
             {
-                margin-top:25px; 
+                margin-top:25px;
             }
         }
     /* Conatct end */
- 
+
 
   /* projects */
   /* this is the grid to put photos galleries in div*/
 .photos {
   margin: 10px 0px 10px 0px;
   display: grid;
-  
-  grid-template-rows: 300px;
+
+  grid-template-rows: 400px;
   grid-gap: 40px;
   background-color: #808080;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -417,7 +423,7 @@ span.text-content span { /* this is for the inner span*/
 /*about me section*/
 @media screen and (min-width:320px){
 
-.about { 
+.about {
   max-width: 100%;
   padding: 10px;
   background-color: rgba(180,180,180,0.9);
@@ -434,7 +440,7 @@ span.text-content span { /* this is for the inner span*/
 
 @media screen and (min-width:1000px){
 
-.about { 
+.about {
   max-width: 100%;
   padding: 10px;
   background-color: #98bf21;
@@ -450,7 +456,7 @@ span.text-content span { /* this is for the inner span*/
 
 @media screen and (min-width:1200px){
 
-.about { 
+.about {
   width: 100%;
   height: auto;
   padding: 10px;
@@ -466,5 +472,4 @@ span.text-content span { /* this is for the inner span*/
 }
 
 
-/*projects ends */  
-  
+/*projects ends */
